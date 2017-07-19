@@ -1,15 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  margin-top: 15px;
 }
 
 textarea {
-  height: 600px;
-  width: 500px;
+  height: 90vh;
+  width: 50%;
+  float: left;
+  resize: vertical;
+  padding: 15px;
 }
 
 #previewer {
-  width: 500px;
+  width: 50%;
   height: 600px;
-  background-color: gray;
-  float: right;
+  float: left;
+  padding: 10px;
 }
